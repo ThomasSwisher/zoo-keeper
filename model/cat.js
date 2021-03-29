@@ -1,10 +1,11 @@
-class Alligator {
+class Cat {
     constructor(
-        name = 'Jay',
-        color = 'Blue',
-        gender = 'M',
-        weight = 2,
-        tailLengthInch = 10,
+        name = '',
+        color = '',
+        gender = '',
+        weight = 0,
+        tailLengthInch = 0,
+        teethSize = '',
     ) {
         this.name = name;
         this.color = color;
@@ -21,4 +22,4 @@ class Alligator {
     }
 }
 
-export default Alligator;
+export default Cat;
