@@ -18,6 +18,7 @@ class Frog {
     speak(noise) {
         alert(`The ${this.constructor.name} says ${noise}!`)
     }
+
 }
 
 export default Frog;
